@@ -102,7 +102,12 @@
     margin-bottom: 10px;
     }
     #comments-list{
-     text-align:center;   
+      margin-top: 10px;
+     text-align:center; 
+     border: 1px outset rgb(247, 191, 191);
+     background-color: rgb(229, 238, 241);    
+     text-align: center; 
+     margin-right: 280px; 
     }
     #submitcomt{
     text-align: center;
