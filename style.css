@@ -102,10 +102,7 @@
     margin-bottom: 10px;
     }
     #comments-list{
-     text-align:center;
-     border:1px solid black;
-     width: 100px;
-     
+     text-align:center;   
     }
     #submitcomt{
     text-align: center;
