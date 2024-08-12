@@ -8,34 +8,38 @@
 </head>
 <body>
     <h1>Things to do in Barcelona Spain</h1>
- <div class="parent"> 
-<button id="prevButton" class="flex-child"><</button>
+<div class="parent"> 
+
 <div class="flex-child">
 <img id="carouselImage" alt="Image" >
 </div>
-<button id="nextButton" class="flex-child">></button></div>
 
-<div id="detailsdiv">
+</div>
+<div class="buttonnextprev">
+<button id="prevButton" class="flex-child"> < </button>
+<button id="nextButton" class="flex-child"> > </button>
+</div>
+<div class="detailsdiv">
 <h3 id="names">Sagrada Familia</h3>
 <p id="paragraph">
 The absolute number 1 attraction in Barcelona Spain is the Sagrada Familia; the holy cathedral designed by Antoni Gaudí. The unfinished church will probably be completed in 2026 and has to be part of your city break. You can even ascend the towers for an amazing view. 
 </p>
+</div>
 
- <p id="comment_hadding">Please Enter comment below</p>
-
-<div>
-       <form>
-       <label for="textbox">Name:</label><input type="text" id="textbox" name="textbox" placeholder="Enter name">
-
-            <label for="textarea">Comment:</label>
-            <textarea id="comenntbox" name="textarea" placeholder="Please enter comment"></textarea>
-</form>
-     <button id="submitcomt">Submit</button>
-    </div>
-   
-<div id="comments-list">
+<div  class="newdivv">
+<p id="comment_hadding">Please Enter comment below</p>
+<label for="textbox">Enter Name</label>
+<input type="text" id="textbox" name="textbox" class="textbox" placeholder="Enter your name">
+<label for="commentbox">Enter Comment</label>
+<textarea id="comenntbox" name="commentbox" class="commentbox" placeholder="Please write any comment"></textarea>
+<button type="button" class="submit-button" id="submitcomt">Submit</button>
+</div>
+<div class="comments-list">
 <ul id="cmt"></ul>
 </div>
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
+<footer>
+    
+</footer>
 </html>
