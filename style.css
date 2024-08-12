@@ -49,9 +49,9 @@
     }
     #paragraph{
        background:#f7e4d0;
-       padding:0px;
+       padding:15px;
        height:80px;
-       width: 70%;
+       width: 65%;
        overflow:auto;
        margin-bottom:20px;
        margin-right:15px;
